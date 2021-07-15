@@ -1,3 +1,7 @@
+*{
+	zoom: 98.5%;
+}
+
 @font-face {
     font-family: title;
     src: url(./fontes/ANODETONOONE.TTF);
@@ -123,11 +127,12 @@ h2 {
 }
 
 #energia {
-	width: 140px;
+	width: 90px;
 	height: 38px;
 	position: absolute;
-	left: 800px;
-	top: 7px;	
+	background-size: contain;
+	left: 860px;
+	top: 15px;	
 }
 
 h3 {
